@@ -22,7 +22,8 @@ public class DictionaryPage extends PageObject {
     @FindBy(name="go")
     private WebElementFacade lookupButton;
 
-    public void enter_keywords_modifiedFromEclipse(String keyword) {
+
+    public void enter_keywords_modifiedFromEclipse(String keyword){
         searchTerms.type(keyword);
     }
 
